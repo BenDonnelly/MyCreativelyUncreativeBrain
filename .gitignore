@@ -1,19 +1,19 @@
-#GITIGNORE for Scribblenauts
+#GITIGNORE for MyCreativelyUncreativeBrain
 
-/Scribblenauts/.metadata
-/Scribblenauts/bin/
-/Scribblenauts/conf/
-/Scribblenauts/docs/
-/Scribblenauts/eclipse/
-/Scribblenauts/forge/
-/Scribblenauts/jars/
-/Scribblenauts/lib/
-/Scribblenauts/logs/
-/Scribblenauts/reobf/
-/Scribblenauts/runtime/
-/Scribblenauts/temp/
-/Scribblenauts/CHANGELOG
-/Scribblenauts/LICENSE.txt
+/MyCreativelyUncreativeBrain/.metadata
+/MyCreativelyUncreativeBrain/bin/
+/MyCreativelyUncreativeBrain/conf/
+/MyCreativelyUncreativeBrain/docs/
+/MyCreativelyUncreativeBrain/eclipse/
+/MyCreativelyUncreativeBrain/forge/
+/MyCreativelyUncreativeBrain/jars/
+/MyCreativelyUncreativeBrain/lib/
+/MyCreativelyUncreativeBrain/logs/
+/MyCreativelyUncreativeBrain/reobf/
+/MyCreativelyUncreativeBrain/runtime/
+/MyCreativelyUncreativeBrain/temp/
+/MyCreativelyUncreativeBrain/CHANGELOG
+/MyCreativelyUncreativeBrain/LICENSE.txt
 
 
 *.bat
@@ -21,14 +21,14 @@
 *.zip
 *.cfg
 
-/Scribblenauts/src/minecraft/cpw/
-/Scribblenauts/src/minecraft/ibxm/
-/Scribblenauts/src/minecraft/paulscode/
-/Scribblenauts/src/minecraft/net/
-/Scribblenauts/src/minecraft/resources/
-/Scribblenauts/src/minecraft/fmlversion.properties
-/Scribblenauts/src/minecraft/forge_logo.png
-/Scribblenauts/src/minecraft/mcp.png
-/Scribblenauts/src/minecraft/mcpmod.info
-/Scribblenauts/src/minecraft/Start.java
-/Scribblenauts/src/minecraft/deobfuscation_data-1.6.2.lzma
+/MyCreativelyUncreativeBrain/src/minecraft/cpw/
+/MyCreativelyUncreativeBrain/src/minecraft/ibxm/
+/MyCreativelyUncreativeBrain/src/minecraft/paulscode/
+/MyCreativelyUncreativeBrain/src/minecraft/net/
+/MyCreativelyUncreativeBrain/src/minecraft/resources/
+/MyCreativelyUncreativeBrain/src/minecraft/fmlversion.properties
+/MyCreativelyUncreativeBrain/src/minecraft/forge_logo.png
+/MyCreativelyUncreativeBrain/src/minecraft/mcp.png
+/MyCreativelyUncreativeBrain/src/minecraft/mcpmod.info
+/MyCreativelyUncreativeBrain/src/minecraft/Start.java
+/MyCreativelyUncreativeBrain/src/minecraft/deobfuscation_data-1.6.2.lzma
