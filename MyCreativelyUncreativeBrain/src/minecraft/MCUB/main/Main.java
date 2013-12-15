@@ -1,5 +1,8 @@
-package MCUB.main;
+package mcub.main;
 
+import mcub.entities.EntityRegister;
+import mcub.item.MCUB_Item;
+import mcub.recipes.CraftingRecipes;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.SidedProxy;
@@ -8,18 +11,21 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.network.NetworkMod;
 
-@Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.MOD_VERSION)
+@Mod(modid = Strings.MOD_ID, name = Strings.MOD_NAME, version = Strings.MOD_VERSION)
 @NetworkMod(clientSideRequired = true, serverSideRequired = false)
 
 public class Main
 {
-	@SidedProxy(clientSide = Reference.CLIENT_PROXY , serverSide = Reference.COMMON_PROXY)
+	@SidedProxy(clientSide = Strings.CLIENT_PROXY , serverSide = Strings.COMMON_PROXY)	
 	public static CommonProxy proxy;
-	
+
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event)
 	{
-		proxy.registerRenderThings();
+		proxy.registerAll();
+		MCUB_Item.initItems();
+		CraftingRecipes.initRecipes();
+		EntityRegister.registerEntities();
 	}
 
 	@EventHandler
@@ -27,4 +33,5 @@ public class Main
 
 	@EventHandler
 	public void postInit(FMLPostInitializationEvent event){}
+	
 }
