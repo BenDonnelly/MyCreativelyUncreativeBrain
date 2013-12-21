@@ -33,6 +33,7 @@ public class EntityRegister
 	static int netherQuartzColour = 0xCACDDB;
 	static int lapisishColour = 0x536CE0;
 	static int redishColour = 0xDE2644;
+	static int muckyGreenColour = 0x354f30;
 	
 	public static void registerEntities()
 	{
@@ -85,6 +86,10 @@ public class EntityRegister
         EntityRegistry.registerGlobalEntityID(OS_EntityRedstoneSpider.class, "RedstoneSpider", EntityRegistry.findGlobalUniqueEntityId());
         registerEntityEgg(OS_EntityRedstoneSpider.class, blackColour, redishColour);
         EntityRegistry.addSpawn(OS_EntityRedstoneSpider.class, 6, 4, 5, EnumCreatureType.monster, BiomeGenBase.desert, BiomeGenBase.desertHills, BiomeGenBase.extremeHills, BiomeGenBase.extremeHillsEdge, BiomeGenBase.forest, BiomeGenBase.forestHills, BiomeGenBase.frozenOcean, BiomeGenBase.frozenRiver, BiomeGenBase.iceMountains, BiomeGenBase.icePlains, BiomeGenBase.jungle, BiomeGenBase.jungleHills, BiomeGenBase.plains, BiomeGenBase.swampland, BiomeGenBase.taiga, BiomeGenBase.taigaHills);
+	
+        //QUEEN SPIDER
+        EntityRegistry.registerGlobalEntityID(OS_EntityQueenSpider.class, "QueenSpider", EntityRegistry.findGlobalUniqueEntityId());
+        registerEntityEgg(OS_EntityQueenSpider.class, blackColour, muckyGreenColour);
 	}
 	
 	public static void registerEntityEgg(Class<? extends Entity> entity, int primaryColour, int secondaryColour)

@@ -102,7 +102,6 @@ public class OS_EntityDiamondSpider extends EntitySpider
 
 		 if (i <= 15 && super.getCanSpawnHere())
 		 {
-			 System.out.println("Spawning Diamond Spider:" + "X:" + this.posX + " Y:" + this.posY + " Z:" + this.posZ);
 			 return true;
 		 }
 		 else

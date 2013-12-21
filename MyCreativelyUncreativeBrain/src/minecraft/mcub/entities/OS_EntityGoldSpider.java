@@ -102,7 +102,6 @@ public class OS_EntityGoldSpider extends EntitySpider
 
 		 if (i <= 32 && super.getCanSpawnHere())
 		 {
-			 System.out.println("Spawning Gold Spider:" + "X:" + this.posX + " Y:" + this.posY + " Z:" + this.posZ);
 			 return true;
 		 }
 		 else

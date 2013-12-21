@@ -1,7 +1,7 @@
 package mcub.renders;
 
 import mcub.entities.OS_EntityRedstoneSpider;
-import mcub.main.Strings;
+import mcub.lib.Strings;
 import net.minecraft.client.renderer.OpenGlHelper;
 import net.minecraft.client.renderer.entity.RenderSpider;
 import net.minecraft.entity.Entity;

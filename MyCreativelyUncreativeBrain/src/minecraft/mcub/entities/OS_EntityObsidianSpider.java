@@ -116,7 +116,6 @@ public class OS_EntityObsidianSpider extends EntitySpider
 
                                 if(this.worldObj.getBlockId(x1, y1, z1) == Block.obsidian.blockID && super.getCanSpawnHere())
                                 {
-                                		System.out.println("Spawning Obsidian Spider:" + "X:" + this.posX + " Y:" + this.posY + " Z:" + this.posZ);
                                         return true;
                                 }
                         }

@@ -1,6 +1,6 @@
 package mcub.main;
 
-import mcub.helpers.TickHandler;
+import mcub.helpers.*;
 import mcub.entities.*;
 import mcub.renders.*;
 import cpw.mods.fml.client.registry.RenderingRegistry;
@@ -21,7 +21,8 @@ public class ClientProxy extends CommonProxy
 	@Override
 	public void registerTickHandlers()
 	{
-		TickRegistry.registerTickHandler(new TickHandler(), Side.SERVER);
+		TickRegistry.registerTickHandler(new OS_TickHandler(), Side.SERVER);
+		TickRegistry.registerTickHandler(new Temp_TickHandler(), Side.SERVER);
 	}
 	@Override
 	public void registerRenderThings()
@@ -36,6 +37,8 @@ public class ClientProxy extends CommonProxy
 		RenderingRegistry.registerEntityRenderingHandler(OS_EntityNetherQuartzSpider.class, new OS_RenderNetherQuartzSpider());
 		RenderingRegistry.registerEntityRenderingHandler(OS_EntityLapisSpider.class, new OS_RenderLapisSpider());
 		RenderingRegistry.registerEntityRenderingHandler(OS_EntityRedstoneSpider.class, new OS_RenderRedstoneSpider());
+		RenderingRegistry.registerEntityRenderingHandler(OS_EntityQueenSpider.class, new OS_RenderQueenSpider());
     }
+	
 	
 }

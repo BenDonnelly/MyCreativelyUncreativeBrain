@@ -105,7 +105,6 @@ public class OS_EntityRedstoneSpider extends EntitySpider
 
 		 if (i <= 16 && super.getCanSpawnHere())
 		 {
-			 System.out.println("Spawning Redstone Spider:" + "X:" + this.posX + " Y:" + this.posY + " Z:" + this.posZ);
 			 return true;
 		 }
 		 else

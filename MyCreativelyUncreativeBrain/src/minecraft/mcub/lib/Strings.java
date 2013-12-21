@@ -1,4 +1,4 @@
-package mcub.main;
+package mcub.lib;
 
 
 public class Strings

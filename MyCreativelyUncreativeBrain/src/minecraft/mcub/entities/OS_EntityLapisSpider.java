@@ -104,7 +104,6 @@ public class OS_EntityLapisSpider extends EntitySpider
 
 		 if (i <= 32 && super.getCanSpawnHere())
 		 {
-			 System.out.println("Spawning Lapis Spider:" + "X:" + this.posX + " Y:" + this.posY + " Z:" + this.posZ);
 			 return true;
 		 }
 		 else

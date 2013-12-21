@@ -102,7 +102,6 @@ public class OS_EntityIronSpider extends EntitySpider
 
 		 if (i <= 63 && super.getCanSpawnHere())
 		 {
-			 System.out.println("Spawning Iron Spider:" + "X:" + this.posX + " Y:" + this.posY + " Z:" + this.posZ);
 			 return true;
 		 }
 		 else
